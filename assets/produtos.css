@@ -1,0 +1,106 @@
+* {
+    margin-top: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    font-size: 100%;
+    background-color: #502b0f;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+    background-image: url(https://i.pinimg.com/originals/90/43/a7/9043a730ef9d90e2b2e6c92265939457.jpg) ;
+}
+
+.logo-home {
+    width: 250px;
+}
+
+.menu {
+    display: flex;
+    gap: 100px;
+}
+.menu :hover{
+    background-color:#946d43ad;
+}
+
+.produtos-menu {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background-color: #724a24;
+    color: #D9C19D;
+    padding: 22px;
+    margin: auto;
+    border-radius: 40px;
+}
+
+
+.quem-somos-menu {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background-color: #724a24;
+    color: #D9C19D;
+    padding: 22px;
+    margin: auto;
+    border-radius: 40px;
+}
+
+.contato-menu {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background-color: #724a24;
+    color: #D9C19D;
+    padding: 22px;
+    margin: auto;
+    border-radius: 40px;
+    }
+.conteudo {
+    border-top: 2.5px solid #D9C19D;
+    margin-bottom: 48px;
+}
+
+
+.botao {
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    background-color: #724a24;
+    color: #D9C19D;
+    padding: 22px;
+    margin: auto;
+    border-radius: 40px;
+}
+
+
+img {
+    width: 800px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+section {
+    column-count: 2;
+    column-gap: 10px;
+    padding: 40px;
+    background-color: #007a4d3b;
+
+}
+
+.whats {
+    width: 90px;
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    z-index: 9999;
+}
+.container{
+    border-top: 2.5px solid #D9C19D;
+    background-color: #724a24;
+}
